@@ -76,6 +76,6 @@ $app->get('/leaderboard', function () use ($app) {
 $app->get('/', function () use ($app) {
 
     $app->render('home.php');
-}
+});
 
 $app->run();
