@@ -43,19 +43,18 @@
 				background: white;
 				color: #333;
 			}
+
 		</style>
 	</head>
 	<body>
 		<div class="inner">
-		<h1>What local business have<br/>you supported today?</h1>
-		<form method="post" action="/support">
-			<select>
-				<?php foreach ($businessNames as $b): ?>
-					<option><?php echo $b?></option>
-				<?php endforeach; ?>
-			</select>
-			<input type="submit">
-		</form>	
+	    
+		<h1>Neighborhood Heroes</h1>
+		<p>Get points for checking in to local shops and become the hero of your neighborhood. Save a local business today!</p>
+		<div class="links">
+			<a href="/support">Login</a>
+			<a href="#">Sign Up</a>
+		</div>
 		</div>
 	</body> 
 </html>

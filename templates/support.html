@@ -49,12 +49,9 @@
 		<h1>What local business have you supported today?</h1>
 		<form>
 			<select>
-				<option>Store a</option>
-				<option>Store b</option>
-				<option>Store c</option>
-				<option>Store d</option>
-				<option>Store e</option>
-				<option>Store f</option>
+				<?php foreach ($businessNames as $b): ?>
+					<option><?php echo $b?></option>
+				<?php endforeach; ?>
 			</select>	
 		</form>	
 		
